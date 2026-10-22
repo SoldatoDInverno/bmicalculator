@@ -1,0 +1,128 @@
+body {
+    background-color: #F1F3F5;
+    color: #1F2328;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.box {
+    background-color: #ffffff;
+    width: 360px;
+    padding: 24px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    box-sizing: border-box;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 16px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+button {
+    background-color: #1F2328;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 8px;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+/* Stili per le Card dei risultati */
+.card {
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 20px;
+}
+
+.card .bmi-valore {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 12px 0;
+}
+
+.card .fascia {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Le Quattro Classi specificate */
+.sottopeso {
+    background-color: #E3EEF9;
+    border-color: #2F6FB3;
+}
+.sottopeso .fascia {
+    color: #2F6FB3;
+}
+
+.normopeso {
+    background-color: #E3F4E6;
+    border-color: #256D34;
+}
+.normopeso .fascia {
+    color: #256D34;
+}
+
+.sovrappeso {
+    background-color: #FCEBD7;
+    border-color: #9A4F06;
+}
+.sovrappeso .fascia {
+    color: #9A4F06;
+}
+
+.obesita {
+    background-color: #FBE2E2;
+    border-color: #B32D2D;
+}
+.obesita .fascia {
+    color: #B32D2D;
+}
+
+.link-ricalcola {
+    display: inline-block;
+    color: #1F2328;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.link-ricalcola:hover {
+    text-decoration: underline;
+}
