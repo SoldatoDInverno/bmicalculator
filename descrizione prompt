@@ -1,0 +1,53 @@
+crea un bmi calculator con queste informazioni:
+PAGINA 1 . form.html
+
+. Titolo h1: Calcolatore BMI»
+. Form con method="post" e action="bmi.php"
+. Tre campi, ognuno con la sua label:
+- Nome (text)
+- Peso in kg (number, decimali ammessi)
+- Altezza in cm (number)
+. Pulsante Calcola»
+· Tutti i campi obbligatori
+
+STILE COMUNE (stile.css)
+
+· Sfondo pagina #F1F3F5, testo #1F2328
+. Font sans-serif
+. Contenuto centrato
+· Box bianco largo 360px, padding 24px, angoli
+arrotondati 12px, ombra leggera
+. Pulsante: sfondo #1F2328, testo bianco,
+angoli 8px, larghezza piena
+
+PAGINA 2 · bmi.php
+
+· Legge nome, peso, altezza dalla pagina
+precedente
+· BMI = peso / (altezza in m)2
+· Mostra UNA card con: nome, dati inseriti,
+BMI con 2 decimali (grande, 48px), fascia in
+maiuscolo
+. La card ha due classi: carde + la classe della
+fascia
+<div class="card normopeso">
+. Sotto la card, link «Calcola di nuovo» verso
+form.html
+
+LE QUATTRO CLASSI
+
+< 18,5 >.sottopeso sfondo #E3EEF9, bordo
+#2F6FB3
+18,5-24,9 >.normopeso sfondo #E3F4E6, bordo
+#256D34
+25-29,9 >.sovrappeso sfondo #FCEBD7, bordo
+#9A4F06
+> 30 >.obesita sfondo #FBE2E2, bordo
+#B32D2D
+
+Bordo 3px. La scritta della fascia usa il colore del
+bordo.
+
+
+
+Se tolgo required alle variabili nel form mi fa comunque il calcolo. Aggiungi correzione errori lato back-end
